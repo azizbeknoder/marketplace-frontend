@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "sonner";
 
-const BASE_URL = "http://0.0.0.0:4000"; // Backend server manzili
+const BASE_URL = "http://192.168.32.118:4000"; // Backend server manzili
 
 const api = axios.create({
   baseURL: BASE_URL,
